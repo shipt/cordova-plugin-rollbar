@@ -31,9 +31,9 @@
   "author": "Emily Morehouse",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/emilyemorehouse/cordova-plugin-rollbar/issues"
+    "url": "https://github.com/newshipt/cordova-plugin-rollbar/issues"
   },
-  "homepage": "https://github.com/emilyemorehouse/cordova-plugin-rollbar",
+  "homepage": "https://github.com/newshipt/cordova-plugin-rollbar",
   "dependencies": {
     "user": "0.0.0"
   }
