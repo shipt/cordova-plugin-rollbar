@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:rim="http://www.blackberry.com/ns/widgets"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="cordova-plugin-rollbar"
+    id="cordova-plugin-shipt-rollbar"
     version="1.1.0">
     <name>Rollbar</name>
     <description>
@@ -62,7 +62,7 @@
         </config-file>
 
         <source-file src="src/android/res/values/rollbar.xml" target-dir="res/values/" />
-        <config-file target="res/values/rollbar.xml" parent="/*">
+        <config-file target="app/src/main/res/values/rollbar.xml" parent="/*">
             <string name="rollbar_access_token">$ROLLBAR_ACCESS_TOKEN</string>
             <string name="rollbar_environment">$ROLLBAR_ENVIRONMENT</string>
         </config-file>
